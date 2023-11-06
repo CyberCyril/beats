@@ -1,0 +1,32 @@
+.benefits__list {
+  display: flex;
+}
+
+.benefits__item {
+  flex: 1;
+  padding: 0 3%;
+  position: relative;
+
+  &:before {
+    content: url("../../img/img2/Combined\ shape\ 2203.svg");
+    position: absolute;
+    top: 59px;
+    right: -3px;
+    transform: translateX(50%);
+  }
+
+  &:first-child {
+    padding-left: 0;
+    &:before {
+      right: 6px;
+    }
+  }
+
+  &:last-child {
+    padding-right: 0;
+
+    &:before {
+      display: none;
+    }
+  }
+}
