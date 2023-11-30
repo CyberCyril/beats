@@ -1,0 +1,14 @@
+.reviews-section {
+  position: relative;
+
+  @include tablets {
+    height: rem(1000px);
+  }
+
+  &:before {
+    content: url("../../img/img3/Ellipse\ 7.svg");
+    position: absolute;
+    bottom: rem(-25px);
+    left: 15%;
+  }
+}

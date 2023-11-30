@@ -1,0 +1,11 @@
+.features {
+  display: flex;
+
+}
+
+.features__item {
+  margin-right: rem(0px);
+  &:first-child {
+    margin-right: rem(1px);
+  }
+}
